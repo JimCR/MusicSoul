@@ -1,0 +1,156 @@
+/* REST */
+*{
+  margin: 0; padding:0; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal;
+  box-sizing: border-box; border: none; outline: none;
+}
+img {
+  max-width: 100%;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h2{
+  font-size: 1.3em; color #333;
+}
+p{
+  font-size: 1em; color #777;
+}
+html, body{
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+.logo img{
+  width: 300px;
+  height: 250px;
+  margin-left: 39%;
+  margin-top: -5%;
+}
+#cabecalho{
+  border-bottom: 1px solid #000;
+  box-shadow: #000 2px 2px 1px;
+  margin-top: -7%;
+
+}
+/*facebook*/
+.cadastro button{
+  width: 290px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 39%;
+  margin-top: 2%;
+  background-color:#3B5998;
+  font-size: 10pt;
+  color: #F8F8FF;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/*cadastro*/
+.cadastro h3{
+  font-size: 19pt;
+  margin-top: 1%;
+  margin-left: 44%;
+  font-weight: bold;
+}
+.cadastro h4{
+  margin-top: 3%;
+  margin-left: 38%;
+  font-weight: bold;
+}
+#dados input{
+  width: 290px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background-color: inherit;
+  float: left;
+  margin-left: 39%;
+  margin-top: 1%;
+  color: #000;
+  padding: 1em .75em .6875em;
+  border-style: inset;
+  border-color: inherit;
+}
+#nascimento{
+  font-size: 10pt;
+  margin-top: 12%;
+  margin-left: 39%;
+}
+#nascimento input {
+  margin-left: 0%;
+  width: 70px;
+}
+#dia select{
+  margin-left: -1%;
+  width: 70px;
+  height: 47px;
+  margin-top: 1%;
+  padding: 1em .75em .6875em;
+  border-radius: 50px;
+  border-style: inset;
+  border-color: inherit;
+}
+#mes select{
+  margin-left: 9%;
+  width: 125px;
+  height: 47px;
+  margin-top: -6%;
+  padding: 1em .75em .6875em;
+  border-radius: 50px;
+  border-style: inset;
+  border-color: inherit;
+
+
+}
+#ano select{
+  margin-left: 25%;
+  width: 75px;
+  height: 47px;
+  padding: 1em .75em .6875em;
+  border-radius: 50px;
+  border-style: inset;
+  border-color: inherit;
+  margin-top: -6%;
+}
+#sexo{
+  margin-top: -1%;
+  margin-left: 39%;
+}
+#sexo p{
+  font-size: 10pt;
+  height: 10px;
+}
+#sexo input{
+  cursor: pointer;
+}
+#termos input{
+    margin-top: 2%;
+    margin-left: 35%;
+    cursor: pointer;
+}
+#termos{
+  font-weight: bold;
+  font-size: 11pt;
+}
+#cadastrar button{
+  text-transform: uppercase;
+  width: 190px;
+  height: 60px;
+  margin-bottom: 20px;
+  background-color: #8E236B;
+  margin-left: 42%;
+}
+#rodape span{
+  margin-left: 44%;
+  color: #ffffff;
+}
+#rodape{
+  border-top: 1px solid #000;
+  box-shadow: #000 2px 2px 1px;
+  margin-top: -7%;
+  margin-top: 5%;
+  background-color: #000;
+}

@@ -1,0 +1,177 @@
+<!-- @Author Jean Carlos Ramos
+     @MusicSoul
+     @casa do código
+-->
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="_css/login.css">
+  <title>MusicSoul</title>
+</head>
+<body>
+  <h1 class="logo">
+   <img src="_img/logo.png"/>
+ </h1>
+  <header id=cabecalho>
+    <!-- cabeçalho aqui -->
+  </header>
+  <fieldset>
+   <section class="cadastro">
+    <h3> Cadastre-se!! </h3>
+     <button onclick="location.href='https://facebook.com'">cadastre-se com facebook</button>
+      <h4> Cadastre-se com seu endereço de e-mail </h4>
+       <form method="post" id="dados">
+        <p><br><label for="mNome"/><input type=" text " placeholder=" Nome " id="mNome" size="100" maxlength="1000"/></br></p>
+        <p><br><input type=" text " placeholder=" Sobrenome " size="100" maxlength="1000"/></br></p>
+        <p><br><input type="email" placeholder=" Email " size="100" maxlength="1000"/></br></p>
+        <p><br><input type="password" placeholder=" Senha " size="100" maxlength="1000"/></br></p>
+        <fieldset id="nascimento"><p>Data de Nascimento</p>
+        <div id="dia">
+            <select placeholder="dia" id="register-dob-day" name="dob_day" required="required" class="dob" data-msg-required="dia do seu nascimento">
+            <option value="" disabled="disable" selected="selected">Dia</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">15</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+        </div>
+           <div id="mes">
+            <select placeholder="mês" id="register-dob-month" name="dob_month" required="required" class="dob" data-msg-required="Quando você nasceu?">
+             <option value="" disabled="disabled" selected="selected">Mês</option>
+             <option value="01">Janeiro</option>
+             <option value="02">Fevereiro</option>
+             <option value="03">Março</option>
+             <option value="04">Abril</option>
+             <option value="06">Junho</option>
+             <option value="07">Julho</option>
+             <option value="08">Agosto</option>
+             <option value="09">Setembro</option>
+             <option value="10">Outubro</option>
+             <option value="11">Novembro</option>
+             <option value="12">Dezembro</option>
+          </select>
+        <div>
+        <div id="ano">
+          <select placeholder="Ano" id="register-dob-year" name="dob_year" required="required" class="dob" data-msg-required="Ano que você nasceu">
+            <option value="" disabled="disabled" selected="selected">Ano</option>
+            <option value="01">2017</option>
+            <option value="01">2016</option>
+            <option value="01">2015</option>
+            <option value="01">2014</option>
+            <option value="01">2013</option>
+            <option value="01">2012</option>
+            <option value="01">2011</option>
+            <option value="01">2010</option>
+            <option value="01">2009</option>
+            <option value="01">2008</option>
+            <option value="01">2007</option>
+            <option value="01">2006</option>
+            <option value="01">2005</option>
+            <option value="01">2004</option>
+            <option value="01">2003</option>
+            <option value="01">2002</option>
+            <option value="01">2001</option>
+            <option value="01">2000</option>
+            <option value="01">1999</option>
+            <option value="01">1998</option>
+            <option value="01">1997</option>
+            <option value="01">1996</option>
+            <option value="01">1995</option>
+            <option value="01">1994</option>
+            <option value="01">1993</option>
+            <option value="01">1992</option>
+            <option value="01">1991</option>
+            <option value="01">1990</option>
+            <option value="01">1989</option>
+            <option value="01">1988</option>
+            <option value="01">1987</option>
+            <option value="01">1896</option>
+            <option value="01">1985</option>
+            <option value="01">1984</option>
+            <option value="01">1983</option>
+            <option value="01">1982</option>
+            <option value="01">1981</option>
+            <option value="01">1980</option>
+            <option value="01">1979</option>
+            <option value="01">1978</option>
+            <option value="01">1977</option>
+            <option value="01">1976</option>
+            <option value="01">1975</option>
+            <option value="01">1974</option>
+            <option value="01">1973</option>
+            <option value="01">1972</option>
+            <option value="01">1971</option>
+            <option value="01">1970</option>
+            <option value="01">1969</option>
+            <option value="01">1968</option>
+            <option value="01">1967</option>
+            <option value="01">1966</option>
+            <option value="01">1965</option>
+            <option value="01">1964</option>
+            <option value="01">1963</option>
+            <option value="01">1962</option>
+            <option value="01">1961</option>
+            <option value="01">1960</option>
+            <option value="01">1959</option>
+            <option value="01">1958</option>
+            <option value="01">1957</option>
+            <option value="01">1956</option>
+            <option value="01">1955</option>
+            <option value="01">1954</option>
+            <option value="01">1953</option>
+            <option value="01">1952</option>
+            <option value="01">1951</option>
+            <option value="01">1950</option>
+          </select>
+        </div>
+        </fieldset>
+      </form>
+      <form method="post">
+      <fieldset id="sexo"><br><p>Sexo</p></br>
+       <input type="radio" name="tSexo" id="cMasc" value="opcao1"/> Masculino
+       <input type="radio" name="tSexo" id="cFem" value="opcao2"/> Feminino
+      </fieldset>
+      <form method="post">
+      <fieldset id="termos">
+         <input type="checkbox" name="agree" id="termos" value="option1"/>Concordo com os termos e condições do MusicSoul.
+       </fieldset>
+       <div id="cadastrar">
+        <button> Cadastrar </button>
+        </div>
+      </form>
+     </form>
+    </section>
+  </fieldset>
+  <footer id="rodape">
+      <span>  MusicSoul &copy 2017 </span>
+  </footer>
+</body>
+</html>
